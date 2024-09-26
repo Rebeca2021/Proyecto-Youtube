@@ -1,0 +1,51 @@
+nav  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: space-between;
+    padding: 10px;
+}
+#logo {
+    display: flex;
+    justify-content: center;
+    width: 40%; 
+    gap: 18px;
+}
+nav > div > i {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: space-between;
+    gap:  10px;
+}
+
+.icon-central {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.icon-central > input { 
+    border-radius: 25px 0 0px 25px;
+    border-color:rgba(154, 154, 154, 0.258) ;
+    padding: 8px;
+    font-size: 10px;
+
+}
+.icon-central > button{
+    border-radius: 0px 25px 25px 0px;
+    border: none;
+    padding: 8px;
+    font-size: 12px;
+
+}
+
+.icon-central > a {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon-derecho{
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+    gap:20px;
+}
