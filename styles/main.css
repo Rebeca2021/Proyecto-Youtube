@@ -1,0 +1,15 @@
+main{
+    display: grid;
+    grid-template-columns: 4% 96%;
+}
+
+.inicio{
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+}
+.barra{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
