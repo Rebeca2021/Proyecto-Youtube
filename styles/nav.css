@@ -2,50 +2,98 @@ nav  {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-content: space-between;
-    padding: 10px;
+    padding: 5px 30px 5px 30px ;
 }
+
+#sidebar{
+    border-radius: 25px 25px 25px 25px;
+    border: 2px solid white;
+    width: 40px;
+    height: 25px;
+    border: none;
+
+}
+
 #logo {
     display: flex;
     justify-content: center;
-    width: 40%; 
+    align-items: center;
+    width: 35%;
     gap: 18px;
 }
 nav > div > i {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
     align-content: space-between;
     gap:  10px;
 }
 
 .icon-central {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    
+    justify-content: end;
+    align-items: center;
+    padding-left: 20px;
 }
-.icon-central > input { 
+.icon-central > input {
     border-radius: 25px 0 0px 25px;
     border-color:rgba(154, 154, 154, 0.258) ;
     padding: 8px;
     font-size: 10px;
 
 }
-.icon-central > button{
-    border-radius: 0px 25px 25px 0px;
-    border: none;
-    padding: 8px;
-    font-size: 12px;
 
+.buscar{
+    width: 500px;
+    height: 25px;
+    border-radius: 0px 25px 25px 0px;
+    border-right: 2px;
+    border: 1px solid white;
+    padding: 8px;
+    font-size: 18px;
+    border-color: rgb(200, 205, 208);
 }
 
-.icon-central > a {
-    display: flex;
-    justify-content: space-evenly;
+.lupa{
+    border-radius: 0px 25px 25px 0px;
+    border-color:rgba(154, 154, 154, 0.258);
+    border: 2px solid white;
+    border-left: 2px;
+    padding: 0px;
+    font-size: 17px;
+    width: 40px;
+    height: 45px;
+    cursor: pointer;
+}
+
+
+.microfono{
+    border-radius: 25px 25px 25px 25px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    font-size: 17px;
 }
 
 .icon-derecho{
     display: flex;
     justify-content: end;
-    align-items: flex-start;
+    align-items: center;
     gap:20px;
+    border:none;
+
+}
+
+.user, .video, .campana{
+    border-radius: 25px 25px 25px 25px;
+    width: 31px;
+    height: 31px;
+    border: none;
+    font-size: 18px;
+}
+
+.user:hover, .video:hover , .campana:hover, .microfono:hover, .lupa:hover, #sidebar:hover{
+    background-color: rgb(201, 201, 201);
+    font-weight: 600;
+    cursor: pointer;
+    transition: font-weight 0.1s;
 }
