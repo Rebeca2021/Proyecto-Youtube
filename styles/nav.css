@@ -2,7 +2,7 @@ nav  {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-content: space-between;
-    padding: 5px 30px 5px 30px ;
+    padding: 5px 23px 5px 23px ;
 }
 
 #sidebar{
@@ -18,7 +18,7 @@ nav  {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 35%;
+    width: 150px;
     gap: 18px;
 }
 nav > div > i {
@@ -49,7 +49,7 @@ nav > div > i {
     border-right: 2px;
     border: 1px solid white;
     padding: 8px;
-    font-size: 18px;
+    font-size: 15px;
     border-color: rgb(200, 205, 208);
 }
 
