@@ -1,11 +1,10 @@
 main{
     display: grid;
     grid-template-columns: 4% 96%;
-    padding: 0px;
-    margin-left: 0px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
+
 }
 
 .iconoslateral {
@@ -15,22 +14,112 @@ main{
     width: 23px;
     margin: 25px;
     font-size: 11px;
-    gap: 0px;
-
 }
 
-.derecha> .barra{
+.sugerencias {
     display: flex;
     justify-content: center;
     align-items: stretch;
-    gap: 30px;
-    font-size: px;
+    gap: 10px;
     margin-top: 15px;
 }
 
-.Todo{
+.todo, .musica, .mixes, .lista, .directo, .pods, .regga, .pop, .juegos, .rock, .aero{
     width: 100px;
-    height: 30px;
+    height: 35px;
     border: none;
     border-radius: 8px 8px 8px 8px;
+}
+.todo:hover, .musica:hover, .mixes:hover, .lista:hover, .directo:hover, .pods:hover, .regga:hover, .pop:hover, .juegos:hover, .rock:hover, .aero:hover{
+    background-color: rgba(201, 201, 201, 0.619);
+    font-weight: 55;
+    cursor: pointer;
+    transition: font-weight 0.1s;
+}
+
+.sugerencia-principal{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+.container{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+.iconoslateral{
+    display: none;
+}
+.sugerencias{
+    display: none;
+}
+.directo, .lista, .mixes, .directo, .juegos, .pop{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body{
+    }
+}
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body{
+        .iconoslateral,  .buscar{
+        display: block;
+        }
+        }
+        }
+
+
+  /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body{
+    .sugerencias, .buscar{
+    display: flex;
+    }
+    }
+    }
+
+  /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body{
+        .directo, .lista, .mixes, .directo, .juegos, .pop{
+            display: block;
+        }
+    }
+}
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body{
+    }
 }
