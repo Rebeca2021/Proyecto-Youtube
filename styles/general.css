@@ -2,24 +2,36 @@
     background-color: #0F0F0F;
 }
 
-#logo svg path{
-   fill:red
-}
-
-.yt-logo-updated-svg_yt8{
-    fill: white;
-}
-.youtube-text {
-    color: white;
-    font-family: Arial, sans-serif;
-    font-size: 24px;}
-
 .fa-solid{
+    background-color:  rgba(109, 98, 98, 0.018);
     color: white;
 }
 .fa-regular {
+    background-color:  rgba(109, 98, 98, 0.018);
     color: white;
 }
 #sidebar svg path{
     fill: white;
 }
+.inicio, .short, .sus, .you{
+    fill: white;
+
+}
+.bibi -music-note{
+    width: 5px;
+    fill: white;
+}
+.nota{
+    height: 12px;
+}
+
+#logo > svg{
+    fill: white;
+}
+
+
+
+
+
+
+

@@ -3,17 +3,17 @@ nav  {
     grid-template-columns: 1fr 1fr 1fr;
     align-content: space-between;
     padding: 5px 23px 5px 23px ;
+    position: sticky;
 }
 
 #sidebar:hover{
     border-radius: 25px 25px 25px 25px;
-   
-    transition: font-weight 0.1s;
-    background-color:rgba(50, 48, 48, 0.97);
     font-weight: 600;
     cursor: pointer;
-    transition: font-weight 0.1s;
-
+}
+#sidebar{
+    margin-right: 5px;
+    width: 30px;
 }
 
 #logo {
@@ -21,7 +21,7 @@ nav  {
     justify-content: center;
     align-items: center;
     padding: 10px;
-    width: 150px;
+    width: 175px;
     gap: 25px;
 }
 nav > div > i {
@@ -46,6 +46,7 @@ nav > div > i {
 }
 
 .buscar{
+    position: sticky;
     width: 500px;
     height: 30px;
     border-radius: 25px 0px 0px 25px;
@@ -58,12 +59,12 @@ nav > div > i {
 
 .lupa{
     border-radius: 0px 25px 25px 0px;
-    border-color:rgba(154, 154, 154, 0);
+    border-color:rgba(50, 48, 48, 0.97);
     border: 3px;
     background-color: (109, 107, 107, 0.358);
     padding: 0px;
     font-size: 17px;
-    width: 45px;
+    width: 44px;
     height: 48px;
     cursor: pointer;
 }
@@ -75,6 +76,7 @@ nav > div > i {
     height: 40px;
     border: none;
     font-size: 17px;
+    margin-left: 15px;
 }
 
 .icon-derecho{
