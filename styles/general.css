@@ -1,0 +1,25 @@
+*{
+    background-color: #0F0F0F;
+}
+
+#logo svg path{
+   fill:red
+}
+
+.yt-logo-updated-svg_yt8{
+    fill: white;
+}
+.youtube-text {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 24px;}
+
+.fa-solid{
+    color: white;
+}
+.fa-regular {
+    color: white;
+}
+#sidebar svg path{
+    fill: white;
+}

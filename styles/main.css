@@ -1,52 +1,93 @@
 main{
-    display: grid;
-    grid-template-columns: 4% 96%;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
+display: grid;
+grid-template-columns: 4% 96%;
+padding: 0px;
+margin-left: 0px;
+font-family: "Roboto", sans-serif;
+font-weight: 395;
+font-style: normal;
 
 }
 
 .iconoslateral {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 23px;
-    margin: 25px;
-    font-size: 11px;
+display: flex;
+width: 28px;
+margin: 20px;
+font-size: 11px;
+color: white;
 }
 
-.sugerencias {
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    gap: 10px;
-    margin-top: 15px;
+.sugerencias{
+display: flex;
+justify-content: center;
+align-content: stretch;
+gap: 8px;
+margin-top: 15px;
+color: white;
 }
 
-.todo, .musica, .mixes, .lista, .directo, .pods, .regga, .pop, .juegos, .rock, .aero{
-    width: 100px;
-    height: 35px;
-    border: none;
-    border-radius: 8px 8px 8px 8px;
+.todo, .music, .mixes, .lista, .directo, .pods, .regga, .pop, .juegos, .rock, .aero, .progre, .vocabulario{
+    background-color: rgba(109, 98, 98, 0.214);
+width: 100px;
+height: 33px;
+border: none;
+border-radius: 8px 8px 8px 8px;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-style: normal;
+color: white;
 }
-.todo:hover, .musica:hover, .mixes:hover, .lista:hover, .directo:hover, .pods:hover, .regga:hover, .pop:hover, .juegos:hover, .rock:hover, .aero:hover{
-    background-color: rgba(201, 201, 201, 0.619);
-    font-weight: 55;
+.todo:hover, .musica:hover, .mixes:hover, .lista:hover, .directo:hover, .pods:hover, .regga:hover, .pop:hover, .juegos:hover, .rock:hover, .aero:hover, .progre:hover, .vocabulario:hover{
+background-color: rgba(109, 107, 107, 0.358);
+color: white;
+font-weight: 80px;
+cursor: pointer;
+transition: font-weight 0.1s;
+}
+
+.videos1{
+display: flex;
+justify-content: space-around;
+margin: 45px 20px 95px 45px;
+gap: 16px;
+font-size: 11px;
+color: white;
+}
+
+
+.aerosmith > img, .feid >img, .sabrina> img, .george >img{
+border-radius: 10px;
+cursor: pointer;
+}
+
+h2:hover{
+    color: white;
+    font-size: 17px;
+    font-weight: 100px;
     cursor: pointer;
-    transition: font-weight 0.1s;
+    transition: font-weight 0.3s;
 }
 
-.sugerencia-principal{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.videos2{
+display: flex;
+justify-content: space-between;
+margin: 20px 48px 0px 50px;
+gap: 16px;
+font-size:11px;
+color: white;
+}
+
+.oasis > img, .greicy > img, .selena > img, .pxndx > img{
+    border-radius: 10px;
 }
 
 
 
-.container{
-    display: flex;
-}
+
+
+
+
+
 
 
 
@@ -67,7 +108,6 @@ main{
 .directo, .lista, .mixes, .directo, .juegos, .pop{
     display: none;
 }
-
 
 
 
